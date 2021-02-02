@@ -5,11 +5,12 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import './utils/request'
 
 export default {
   name: 'App',
   components: {
     HelloWorld
-  }
+  },
 }
 </script>
